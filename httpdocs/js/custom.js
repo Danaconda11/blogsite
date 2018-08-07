@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	//FOUC solution
 	setTimeout(() => {
 		document.getElementsByTagName('body')[0].style.visibility = 'visible'
-	}, 50);
+	}, 100);
 
 	///highlight nav bar based on location
 	var url = location.href.split("/");
